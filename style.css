@@ -1,0 +1,142 @@
+*{
+
+   margin: 0;
+
+   padding: 0;
+
+ }
+
+ 
+
+body
+
+   {
+
+     background-color: #000;
+
+       
+
+    }
+
+.redsun {
+
+  position: absolute;  
+
+  left: 20%; top: 10%;
+
+  z-index: 9999;
+
+  border-radius: 200%;
+
+  width: 200px; height: 200px;
+
+  background: red;
+
+  box-shadow: 0px 0px 0px rgba(255,255,255,0.5), 0px 0px 50px red, 0px 0px 50px yellow, 0px 0px 50px red;
+
+  animation: sunburst 7s infinite;
+
+  
+
+}
+
+.earth {
+
+  z-index: 9999;
+
+  position: absolute;
+
+  top: 20%; left: 0%;
+
+  width: 7px; height: 7px;
+
+  background: #333;
+
+  box-shadow: 0px 0px 0px rgba(255,255,255,0.5), 0px 0px 20px blue, 0px 0px 20px yellow, 0px 0px 50px white;
+
+  border-radius: 200%;
+
+/* -webkit-animation: spin-right 20s linear infinite;*/
+
+  animation: planetcross 30s infinite;
+
+}
+
+@-webkit-keyframes sunburst {
+
+   0% { transform: scale(1); }
+
+  
+
+  50% { transform: scale(1.05); }
+
+  100% { transform: scale(1); }
+
+}
+
+@-moz-keyframes sunburst {
+
+  0% { transform: scale(1); }
+
+  
+
+  50% { transform: scale(1.05); }
+
+  100% { transform: scale(1); }
+
+}
+
+@-o-keyframes sunburst {
+
+  0% { transform: scale(1); }
+
+  
+
+  50% { transform: scale(1.05); }
+
+  100% { transform: scale(1); } 
+
+}
+
+@keyframes sunburst {
+
+  0% { transform: scale(1); }
+
+  
+
+  50% { transform: scale(1.05); }
+
+  100% { transform: scale(1); }
+
+}
+
+@keyframes planetcross {
+
+  0% { left: 0%; }
+
+  
+
+  100% { left: 100%; }
+
+}
+
+/*
+
+━━━╮""""''''''
+
+━━╮╰╮┊┊┊┊┊┊
+
+┊┊╰╮╰━▂▂▂▂┊┊┊┊┊┊
+
+┊▂╱▔╲▔╱┏┳╮╲┊┊ᶤ.╭╮
+
+▂╲▂▂╱╲╲╰┻┛╱▔▔▔▔┃
+
+╲▂▂╱╭╯╱▔▔╱▔▔▔▽▽╯ 
+
+┊╱╱╭╯╱▔▔▔╲▂▂△▂△╮  Thanks for visiting the 
+
+━━━╯╱╱╭━━━━━━━━╯   code🖐️
+
+*/
+
