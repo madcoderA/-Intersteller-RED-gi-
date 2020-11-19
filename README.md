@@ -1,4 +1,4 @@
-# -Intersteller-RED-gi-
+# -Intersteller-RED-giant
 DISCLAIMER:
 
 The code is for educational purposes only. You can use it for educational purposes only not for commercial uses.     
